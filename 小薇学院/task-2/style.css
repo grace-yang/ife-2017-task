@@ -1,0 +1,240 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #dedede;
+	font-size: 16px;
+	font-family: '黑体';
+}
+/*头部*/
+.header{
+	background:#333;
+	height: 60px;
+}
+.header .logo{
+	height: 60px;
+	float: left;
+	box-sizing: border-box;
+	padding-top: 10px;
+	padding-left: 40px;
+	padding-bottom: 11px;
+}
+.header .nav{
+	float: right;
+}
+.header .nav ul{
+	width: 320px;
+	height: 60px;
+}
+.header .nav ul li{
+	float: left;
+	width: 80px;
+	height: 60px;
+}
+.header .nav ul li a{
+	color: white;
+	font-size: 12px;
+	text-decoration: none;
+	line-height: 60px;
+}
+/*未实现*/
+.header .nav ul li a:last-child{
+	color: #ccc;
+}
+/*内容部分*/
+.content{
+	box-sizing: border-box;
+	padding: 20px;
+	line-height: 2em;
+}
+.content .box1, .box2, .box3, .box4{
+	background: #fff;
+	border:1px solid #cdcdcd;
+	box-sizing: border-box;
+	padding: 20px;
+	-webkit-box-shadow: 2px 2px 2px #848484;
+	-moz-box-shadow: 2px 2px 2px #848484;
+	-ms-box-shadow: 2px 2px 2px #848484;
+	-o-box-shadow: 2px 2px 2px #848484;
+	box-shadow: 2px 2px 2px #848484;
+	margin-bottom: 20px;
+}
+.content a{
+	color: blue;
+}
+.content h1{
+	font-size: 24px;
+	margin:10px 0;
+}
+.content h2{
+	font-size: 18px;
+	color: grey;
+}
+.content p{
+	text-indent: 2em;
+}
+.content .ft{
+	font-size: 14px;
+	color: grey;
+}
+.content .ct{
+	font-weight: bold;
+}
+/*box2*/
+.content .box2 ul{
+	list-style: none;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+/*box3*/
+.content .box3 ul{
+	list-style: none;
+}
+.content .box3 ul li{
+	border:1px solid grey;
+	width: 125px;
+	height: 125px;
+	text-align: center;
+	margin-left: 40px;
+	margin-bottom: 20px
+}
+.content .box3 ul li img{
+	width: 100px;
+	height: 80px;
+}
+.content .box3 ul li span{
+	font-size: 13px;
+}
+/*box4*/
+.content .box4 ol{
+	margin-left: 50px;
+}
+.content .box4 table{
+	width: 1267px;
+	height: 148px;
+	background-color: #ccc;
+	font-size: 12px;
+}
+.content .box4 table caption{
+	font-size: 16px;
+    text-align: left;
+}
+.content .box4 table thead{
+	color: white;
+	background-color: #333;
+	text-align: left;
+}
+.content .box4 table tbody{
+	background-color: white;
+}
+.content .box4 table tbody a{
+	color:-webkit-link;
+}
+.content .box4 table tfoot{
+	font-weight: bold;
+}
+.content .box4 table tr th,td{
+	padding-left: 5px;
+}
+/*box5*/
+.content .box5{
+	height: 500px;
+	box-sizing: border-box;
+	margin-right: 40px;
+	background: #fff;
+	font-size: 12px;
+	border:1px solid #cdcdcd;
+	-webkit-box-shadow: 2px 2px 2px #828282;
+	-moz-box-shadow: 2px 2px 2px #828282;
+	-ms-box-shadow: 2px 2px 2px #828282;
+	-o-box-shadow: 2px 2px 2px #828282;
+	box-shadow: 2px 2px 2px #828282;
+}
+.content .box5 h2{
+	height: 38px;
+	font-size: 16px;
+	line-height: 38px;
+	margin-top: 20px;
+	margin-left: 20px;
+	border-left: 3px solid #ccc;
+	padding-left: 10px;
+}
+/*表单*/
+.box5 .form{
+	height: 357px;
+	margin-left: 290px;
+	margin-top: 10px;
+}
+.box5 .form .line{
+	width: 227px;
+	height: 22px;
+	line-height: 22px;
+}
+.box5 .form p{
+	height: 14px;
+	margin:12px 98px 22px 98px;
+	color: #a0a392;
+	text-indent: 0;
+}
+input[type=text]{
+	width: 129px;
+	height: 18px;
+	float: right;
+}
+/*密码*/
+input[type=password]{
+	width: 129px;
+	height: 18px;
+	float: right;
+}
+label[for=pw_1]{
+	margin-left: 24px;
+}
+.box5 .form .pw{
+	margin-top: 10px;
+}
+/*性别、城市、爱好*/
+.box5 .form .sch{
+	display: block;
+	height: 26px;
+	width: 300px;
+}
+label[for=sc]{
+	margin-left: 61px;
+}
+input[type=radio]{
+	margin-left: 6px;
+}
+select[name=city]{
+	width: 58px;
+	height: 18px;
+}
+/*描述*/
+label[for=ms]{
+	margin-left: 36px;
+}
+input[type=textarea]{
+	width: 1350px;
+	height: 100px;
+}
+/*提交*/
+input[type=submit]{
+	width: 1780px;
+	height: 40px;
+	background: #3355d0;
+	margin: 11px 20px 20px 20px;
+	border: 1px solid #c4cccf;
+	font-size: 16px;
+	color: white;
+	font-weight: bold;
+	border-radius: 6px;
+}
+.footer{
+	height: 70px;
+	background: rgb(0,0,0);
+	color: #fff;
+	font-size: 12px;
+	line-height: 34px;
+	text-align: center;
+}
